@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TCMorus</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/StyleIndex.css" type="text/css"/>
+    </head>
+    <script>
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            $("#div2").load("QuienesSomos.html #p1");
+        });
+        $("#btn2").click(function(){
+           $("#div2").load("Productos.html"); 
+        });
+    });
+    </script>
+    <body>
+        <div id="conteiner">
+            <div id="div1">
+                <div id="logo">
+                    
+                </div>
+                <button id="btn1"><h2>Quienes somos</h2></button>
+                <button id="btn2"><h2>Productos</h2></button>
+                <button id="btn3"><h2>Noticias</h2></button>
+            </div>
+            <div id="div2">
+                
+            </div>
+            <div id="div3">
+                <h2 id="contac">@CONTACTANOS</h2>
+                <button id="btn4"><h2>FB TCMorus</h2></button>
+                <button id="btn5"><h2>Instagram @CTMorus</h2></button>
+                <button id="btn6"><h2>963258741</h2></button>
+                <button id="btn7"><h2>985214763</h2></button>
+            </div>
+        </div>
+    </body>
+</html>
+
